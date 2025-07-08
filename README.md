@@ -1,4 +1,4 @@
-# Security Monitoring System
+# ANPR Monitoring System
 
 ## 📺 Video Demonstration
 
@@ -29,7 +29,7 @@ This Python application provides a real-time security monitoring interface using
 - Python 3.8+
 - Two webcams (for Entry and Exit gates).
 - A Google Firebase project with Firestore enabled.
-- (Optional) Arduino boards connected to serial ports for physical gate control.
+- Arduino boards connected to serial ports for physical gate control.
 
 ## Setup Instructions
 
@@ -339,11 +339,10 @@ This will automatically encrypt your credentials and store them in the correct f
 
 ## Usage of the system
 
-1. You can download the ANPR_Model.zip file from [this Google Drive link](https://drive.google.com/file/d/1qd2tudZG98nrGOU7lCMsnIkA6zvxHexT/view?usp=drive_link) and extract its contents into the project root directory.
-2. Ensure Firebase credentials (ANPR.json or .env) are set locally (do not commit to GitHub).
-3. Connect webcams for entry and exit monitoring.
-4. Connect the Arduino board if using physical gate control.
-5. Run the system:
+1. Ensure Firebase credentials (ANPR.json or .env) are set locally (do not commit to GitHub).
+2. Connect webcams for entry and exit monitoring.
+3. Connect the Arduino board if using physical gate control.
+4. Run the system:
 
 ```
 python main.py
