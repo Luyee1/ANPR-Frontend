@@ -1,0 +1,18 @@
+# Ignore environment files
+.env
+
+# Ignore dataset and large zip
+ANPR_Model.zip
+
+# Ignore IDE and system files
+.idea/
+__pycache__/
+
+# Ignore binaries and installers
+*.exe
+
+# Ignore other zip packages 
+*.zip
+
+# Ignore Firebase or local JSON configuration
+ANPR.json
