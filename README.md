@@ -150,3 +150,28 @@ Car-Model-Data
     Resize: All images are stretched to 224x224 pixels.
     Augmentations:
         Horizontal flip, color jitter, up to 500 images/class
+
+### 4. Font Installation (Windows)
+To install Montserrat for consistent GUI display:
+  1. Extract the Montserrat.zip file.
+  2. Select all .ttf files.
+  3. Right-click and select Install.
+
+
+### 5. Arduino IDE Library Installation
+To install LiquidCrystal_I2C:
+  1. Open Arduino IDE.
+  2. Go to Sketch > Include Library > Manage Libraries.
+  3. Search for LiquidCrystal_I2C.
+  4. Install LiquidCrystal I2C by Frank de Brabander.
+
+## Usage
+1. Ensure Firebase credentials (ANPR.json or .env) are set locally (do not commit to GitHub).
+2. Connect webcams for entry and exit monitoring.
+3. Connect the Arduino board if using physical gate control.
+4. Run the system:
+```
+python main.py
+
+```
+   
