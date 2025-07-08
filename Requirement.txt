@@ -13,14 +13,3 @@ cryptography==44.0.2
 bcrypt==4.3.0
 numpy==1.24.4
 
-
-Install Monsterat into system font (Windows based system):
-1. Extract the Monsterat.zip file
-2. Select all .ttf files 
-3. Right click and press Install
-
-Install LiquidCrystal_I2C in Arduino IDE:
-1. Open Arduino IDE
-2. Click Sketch > Include Library > Manage Libraries
-3. Search for LiquidCrystal_I2C
-4. Install LiquidCrystal I2C by Frank de Brabander
