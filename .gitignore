@@ -13,6 +13,7 @@ __pycache__/
 
 # Ignore other zip packages 
 *.zip
+!Montserrat.zip
 
 # Ignore Firebase or local JSON configuration
 ANPR.json
