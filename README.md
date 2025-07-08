@@ -1,5 +1,9 @@
 # Security Monitoring System
 
+## 📺 Video Demonstration
+
+[![Watch the demo](https://img.youtube.com/vi/gd57czLyN40/0.jpg)](https://youtu.be/gd57czLyN40)
+
 ## Overview
 
 This Python application provides a real-time security monitoring interface using webcams. It leverages computer vision and machine learning models to perform Automatic Number Plate Recognition (ANPR), car brand detection, and vehicle tracking for a secure entry/exit system. The system is designed to integrate with a Firebase backend for data storage and management.
@@ -328,6 +332,10 @@ if __name__ == "__main__":
 4. Follow the prompts to enter your sender email and password.
 
 This will automatically encrypt your credentials and store them in the correct format in Firestore.
+
+## 📄 Documentation
+
+📄 [**View Arduino Architecture & User Interface (PDF)**](Arduino_Architecture_and_User_Interface.pdf)
 
 ## Usage of the system
 
